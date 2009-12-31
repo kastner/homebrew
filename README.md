@@ -1,18 +1,19 @@
+Easy Installation and Updating
+==============================
+    sudo chown -R `whoami` /usr/local
+    curl -L http://github.com/mxcl/homebrew/tarball/master | tar xz --strip 1 -C /usr/local
+
+That's it. You can now `brew install` your favorite packages.
+
+When you want to update brew to get the latest Formulas just type
+
+    brew update
+
 Homebrew
 ========
 Homebrew is a package management system for OS X. In other words it is a tool
 that helps you manage the installation of other open source software on your
 Mac.
-
-Easy Installation and Updating
-==============================
-1. sudo chown -R `whoami` /usr/local
-2. curl -L http://github.com/mxcl/homebrew/tarball/master | tar xz --strip 1 -C /usr/local
-
-That's it. You can now `brew install` your favorite packages.
-
-When you want to update brew to get the latest Formulas just type
-`brew update`
 
 Keep reading for alternative installation methods!
 
