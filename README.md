@@ -116,10 +116,12 @@ Quick Start
     sudo chown -R `whoami` /usr/local
     curl -L http://github.com/mxcl/homebrew/tarball/master | tar xz --strip 1 -C /usr/local
 
+NOTE: Read the sudo section for more information on the sudo command as it relates to brew and /usr/local!
+
 That's it. You can now `brew install` your favorite packages.
 To get a list of all available packages, type `brew search`.
 
-When you want to update brew to get the latest Formulas just type
+When you want to update brew to get the latest formulas just type:
 
     brew update
 
